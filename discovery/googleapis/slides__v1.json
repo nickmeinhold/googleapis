@@ -306,7 +306,7 @@
             }
         }
     },
-    "revision": "20200929",
+    "revision": "20210125",
     "rootUrl": "https://slides.googleapis.com/",
     "schemas": {
         "AffineTransform": {
@@ -2317,7 +2317,7 @@
                 },
                 "notesMaster": {
                     "$ref": "Page",
-                    "description": "The notes master in the presentation. It serves three purposes: - Placeholder shapes on a notes master contain the default text styles and shape properties of all placeholder shapes on notes pages. Specifically, a `SLIDE_IMAGE` placeholder shape contains the slide thumbnail, and a `BODY` placeholder shape contains the speaker notes. - The notes master page properties define the common page properties inherited by all notes pages. - Any other shapes on the notes master appears on all notes pages. The notes master is read-only."
+                    "description": "The notes master in the presentation. It serves three purposes: - Placeholder shapes on a notes master contain the default text styles and shape properties of all placeholder shapes on notes pages. Specifically, a `SLIDE_IMAGE` placeholder shape contains the slide thumbnail, and a `BODY` placeholder shape contains the speaker notes. - The notes master page properties define the common page properties inherited by all notes pages. - Any other shapes on the notes master appear on all notes pages. The notes master is read-only."
                 },
                 "pageSize": {
                     "$ref": "Size",
@@ -3323,7 +3323,7 @@
             "type": "object"
         },
         "ShapeProperties": {
-            "description": "The properties of a Shape. If the shape is a placeholder shape as determined by the placeholder field, then these properties may be inherited from a parent placeholder shape. Determining the rendered value of the property depends on the corresponding property_state field value.",
+            "description": "The properties of a Shape. If the shape is a placeholder shape as determined by the placeholder field, then these properties may be inherited from a parent placeholder shape. Determining the rendered value of the property depends on the corresponding property_state field value. Any text autofit settings on the shape are automatically deactivated by requests that can impact how text fits in the shape.",
             "id": "ShapeProperties",
             "properties": {
                 "contentAlignment": {

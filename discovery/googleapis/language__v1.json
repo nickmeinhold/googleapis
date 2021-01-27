@@ -219,7 +219,7 @@
             }
         }
     },
-    "revision": "20200919",
+    "revision": "20210125",
     "rootUrl": "https://language.googleapis.com/",
     "schemas": {
         "AnalyzeEntitiesRequest": {

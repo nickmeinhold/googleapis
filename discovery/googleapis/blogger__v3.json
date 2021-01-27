@@ -1642,7 +1642,7 @@
             }
         }
     },
-    "revision": "20201006",
+    "revision": "20210130",
     "rootUrl": "https://blogger.googleapis.com/",
     "schemas": {
         "Blog": {
